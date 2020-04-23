@@ -10,6 +10,8 @@ front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
 build:
+  preview_env:
+  - asana=1/1154968833058467:78afc2b589ed48d37a88f4175979f9dd
   preview_output_directory: public
   install_dependencies_command: npm install
   preview_docker_image: node:10
